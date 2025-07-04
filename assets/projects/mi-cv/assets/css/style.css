@@ -1,0 +1,24 @@
+body {
+    padding: 10px 30px;
+}
+
+img {
+    width: 200px;
+}
+
+table {
+    border-collapse: collapse;
+    width: 80%;
+    font-family: Arial, sans-serif;
+}
+
+td {
+    border: 2px solid #8B9638;
+    padding: 10px;
+    vertical-align: top;
+    width: 50%;
+}
+
+td img {
+    width: 100%;
+}

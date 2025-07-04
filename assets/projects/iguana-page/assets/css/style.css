@@ -1,0 +1,151 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: black;
+  color: white;
+  text-align: center;
+  font-family: "Raleway", sans-serif;
+}
+
+header figure {
+  width: 100%;
+}
+
+header figure img {
+  width: 100%;
+  height: auto;
+  display: block;
+}
+
+h1,
+h2 {
+  text-transform: uppercase;
+}
+
+h1 {
+  font: normal normal 500 50px/59px Raleway;
+  margin: 7px auto;
+}
+
+h2 {
+  font: normal normal 500 40px/47px Raleway;
+}
+
+#seccion-descripcion {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin: 45px 0 66px;
+}
+
+#seccion-descripcion .texto-descriptivo {
+  flex: 0 0 475px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  text-align: right;
+  font: normal normal 300 16px/19px Raleway;
+}
+
+#seccion-descripcion .texto-descriptivo p {
+  margin-bottom: 1em;
+  text-align: left;
+}
+
+#seccion-descripcion figure {
+  flex: 0 0 475px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+}
+
+#seccion-descripcion figure img {
+  width: 400px;
+  height: auto;
+  display: block;
+}
+
+#seccion-caracteristicas,
+footer {
+  background-color: #1e1a13;
+  width: 100%;
+}
+
+#seccion-caracteristicas {
+  padding: 75px 0;
+  text-align: center;
+}
+
+#seccion-caracteristicas h2 {
+  margin: 0 auto 50px;
+}
+
+.lista-caracteristicas {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 2em;
+  margin: 0 auto;
+  padding: 0;
+  font: normal normal 300 25px/30px Raleway;
+}
+
+.caracteristica {
+  display: flex;
+  flex: 0 0 230px;
+  flex-direction: column;
+  align-items: center;
+}
+
+.caracteristica i {
+  margin: 30px 0 0.5em;
+}
+
+.caracteristica p {
+  margin: 16px 0 0;
+  font: normal normal 300 24px/29px Raleway;
+  text-align: center;
+}
+
+.galeria {
+  display: flex;
+  justify-content: center;
+  gap: 16px;
+  margin: 73px auto;
+  padding: 0;
+}
+
+.galeria figure {
+  flex: 0 0 316px;
+  margin: 0;
+}
+
+.galeria li {
+  list-style: none;
+}
+
+.galeria img {
+  width: 316px;
+  height: 202px;
+  object-fit: cover;
+}
+
+footer {
+  font: normal normal 300 20px/24px Raleway;
+  height: 100px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+footer a {
+  color: white;
+  text-decoration: none;
+}

@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+/* CSS Resets Start */
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+* {
+    margin: 0;
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+    html {
+        interpolate-size: allow-keywords;
+    }
+}
+
+body {
+
+    line-height: 1.5;
+
+    -webkit-font-smoothing: antialiased;
+}
+
+
+img,
+picture,
+video,
+canvas,
+svg {
+    display: block;
+    max-width: 100%;
+}
+
+
+input,
+button,
+textarea,
+select {
+    font: inherit;
+}
+
+
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    overflow-wrap: break-word;
+}
+
+
+p {
+    text-wrap: pretty;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    text-wrap: balance;
+}
+
+
+#root,
+#__next {
+    isolation: isolate;
+}
+
+/* CSS Resets End */
+
+:root {
+    --primary-text: #212529;
+    --secondary-text: #707070;
+    --light: #F8F9FA;
+    --white: #FFFFFF;
+    --success: #28a745;
+    --font-family: 'Roboto', Arial, sans-serif;
+    --font-light: 300;
+    --font-medium: 500;
+    --font-bold: 800;
+}
+
+body {
+    font-family: var(--font-family);
+    color: var(--primary-text);
+    background-color: var(--light);
+}
+
+header div {
+    height: 4rem;
+    color: var(--white);
+}
+
+.green-bg {
+    background-color: var(--success);
+}
+
+.green {
+    color: var(--success)
+}
+
+header .logo {
+    height: 2rem;
+}
+
+header nav {
+    align-items: right;
+}
+
+header nav ul {
+    list-style: none;
+    display: flex;
+    gap: 1rem;
+    margin: 0;
+    padding: 0;
+}
+
+header nav ul li a {
+    color: var(--white);
+    text-decoration: none;
+    font-weight: var(--font-medium);
+    opacity: 0.7;
+}
+
+header nav ul li a:hover {
+    text-shadow: var(--light) 0 0 1px;
+}
+
+header nav ul li:first-child a {
+    opacity: 1;
+}
+
+header nav ul li:last-child {
+    opacity: 0.3;
+    ;
+    text-shadow: none;
+}
+
+.logo-footer {
+    height: 1.5rem;
+}
+
+@media (min-width: 768px) {
+    .fs-md-3 {
+        font-size: 1.5rem !important;
+    }
+
+    .fs-md-5 {
+        font-size: 0.75rem !important;
+    }
+
+}
