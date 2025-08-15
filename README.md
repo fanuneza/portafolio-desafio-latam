@@ -7,7 +7,7 @@
 - CV: https://fanuneza.github.io/portafolio-desafio-latam/
 - Portafolio: https://fanuneza.github.io/portafolio-desafio-latam/portafolio.html
 
-### Forks de proyectos de compañeros ()
+### Forks de proyectos de compañeros
 
 - https://github.com/fanuneza/gustavo-jarpa-portafolio
 - https://github.com/fanuneza/yeltsinglatam-portafolio
