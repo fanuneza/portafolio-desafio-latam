@@ -129,6 +129,11 @@ main {
     margin-bottom: 0;
 }
 
+.content {
+    margin: 0 auto;
+    padding: 1rem 3rem;
+}
+
 @media (width < 576px) {
     .card-img-top {
         height: 50vw;
