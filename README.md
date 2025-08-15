@@ -2,11 +2,30 @@
 
 (Este repositorio es el trabajo final del curso **Introducción al Desarrollo web (G103)** en Academia Desafío Latam).
 
+### GitHub Pages
+
+- CV: https://fanuneza.github.io/portafolio-desafio-latam/
+- Portafolio: https://fanuneza.github.io/portafolio-desafio-latam/portafolio.html
+
+### Forks de proyectos de compañeros ()
+
+- https://github.com/fanuneza/gustavo-jarpa-portafolio
+- https://github.com/fanuneza/yeltsinglatam-portafolio
+
+### Pull Requests (incluyen commits)
+
+- https://github.com/gustavo-jarpa/Portafolio/pull/1
+- https://github.com/Yeltsinglatam/Cv_Yeltsingimenez/pull/1
+
+---
+
+## Desafío
+
 Bienvenido al último desafío de este módulo que abarca los contenidos de forma integral.
 
 Lee todo el documento antes de comenzar el desarrollo individual, para asegurarte de tener el máximo de puntaje y enfocar bien los esfuerzos.
 
-## Descripción
+### Descripción
 
 En este desafío donde deberás actualizar tu curriculum y portafolio dejándolo disponible en Github Pages.
 
@@ -14,7 +33,7 @@ Para actualizar tu portafolio con todo lo que has aprendido puedes utilizar plan
 
 Adicionalmente, deberás demostrar que puedes trabajar de forma colaborativa en Github haciendo alguna contribución a un repositorio de algún compañero.
 
-## Requerimientos
+### Requerimientos
 
 1. Construir tu CV utilizando HTML y CSS. **(2 Puntos)**
    - Este debe tener barra de navegación, link al portafolio, sección de educación, sección de experiencia y footer.
@@ -25,7 +44,7 @@ Adicionalmente, deberás demostrar que puedes trabajar de forma colaborativa en 
 4. Forkear los proyectos de por lo menos 2 compañeros. **(1 Punto)**
 5. Hacer por lo menos 1 commit por cada proyecto forkeado. **(1 Puntos)**
 
-## Consideraciones y recomendaciones
+### Consideraciones y recomendaciones
 
 - También es posible aportar a un proyecto vía un pull request, para lograrlo, hay que hacer un fork del repositorio original, hacer los cambios y subirlos en el repositorio forkeado y luego, desde la página del repositorio en Github, hacer clic en pull request.
 - Posteriormente, llegará una notificación al proyecto original para hacer un merge de esos cambios.
